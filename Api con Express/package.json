@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "1.http.js",
   "scripts": {
-    "dev": "nodemon 1.http.js"
+    "dev": "nodemon 1.http.js",
+    "dev:2": "node --watch 3.express.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
   },
   "eslintConfig": {
     "extends": "standard"
+  },
+  "dependencies": {
+    "express": "5.1.0"
   }
 }

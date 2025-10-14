@@ -1,0 +1,13 @@
+
+
+POST http://localhost:3000/contacto
+Content-Type: application/json
+    
+{
+    "nombre": "Juan Perez",
+    "email": "juan.perez@example.com"
+}
+
+################################################
+
+GET http://localhost:3000/
